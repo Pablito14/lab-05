@@ -1,253 +1,145 @@
-/*Mobile view first*/
-@media only screen and (max-width: 320px){
-
-    body {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    #a {
-        width: 480px;
-        height: 75px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #b {
-        width: 480px;
-        height: 150px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #c {
-        width: 480px;
-        height: 125px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #d {
-        width: 480px;
-        height: 125px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #e {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #f {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #g {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #h {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #i {
-        width: 480px;
-        height: 80px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    .eh {
-      display: flex;
-      
-    
-    }
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100vw;
+}
+#a{
+    width: 100vw;
+    height: 75px;
+    margin: 0 auto;
+    background-color: red;
+    outline-color: black;
+}
+#b{
+    width: 100vw;
+    height: 150px;
+    margin: 0 auto;
+    background-color: orange;
+    outline-color: black;
+}
+#c{
+    width: 100vw;
+    height: 125px;
+    margin: 0 auto;
+    background-color: yellow;
+    outline-color: black;
+}
+#d{
+    width: 100vw;
+    height: 125px;
+    margin: 0 auto;
+    background-color: green;
+    outline-color: black;
+}
+#container2{
+    display:flex;
 }
 
+#e{
+    width: 50vw;
+    height: 250px;
+    background-color: blue;
+    outline-color: black;
+}
+#f{
+    width: 50vw;
+    height: 250px;
+    background-color: purple;
+    outline-color: black;
+}
 
-/*Tablet view second*/
-/* @media only screen and (max-width: 768px){
-    body {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    #a {
-        width: 480px;
-        height: 75px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #b {
-        width: 480px;
-        height: 150px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #c {
-        width: 480px;
-        height: 125px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #d {
-        width: 480px;
-        height: 125px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    #e {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #f {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #g {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #h {
-        width: 240px;
-        height: 250px;
-        border: solid black 1px;
-        background-color: grey;
-        display: inline-block;
-    }
-    
-    #i {
-        width: 480px;
-        height: 80px;
-        border: solid black 1px;
-        background-color: grey;
-    }
-    
-    .eh {
-      display: flex;
-      
-    
-    }
-} */
+#container3{
+    display:flex;
+    justify-content: center;
+}
+#g{
+    width: 50vw;
+    height: 250px;
+    background-color: red;
+    outline-color: black;
+}
+#h{
+    width: 50vw;
+    height: 250px;
+    background-color: orange;
+    outline-color: black;
+}
+#i{
+    clear: both;
+    width: 100vw;
+    height: 80px;
+    margin: 0 auto;
+    background-color: yellow;
+    outline-color: black;
+}
 
-/*Desktop & Beyond*/
-@media only screen and (min-width: 1024px){
-    body {
-        box-sizing: border-box;
+@media only screen and (min-width : 768px){
+
+    #bigo{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        position: relative;
+        left:20%; 
+    }
+
+    #container1{
+        position: relative;
+        left:20%; 
+        display:flex;
+        width: 80%;
     }
     
-    #a {
-        width: 960px;
+    #a{
+        width: 100vw;
         height: 100px;
-        border: solid black 1px;
-        background-color:green;
-        margin: auto;
     }
-    
-    #b {
-        width: 200px;
+
+    #b{
+        position: absolute;
+        width: 20%;
         height: 600px;
-        border: solid black 1px;
-        background-color:green;
     }
-    
-    #c {
-        width: 380px;
+  
+    #c{
+        margin: 0;
+        padding: 0;
+        width: 40vw;
         height: 200px;
-        border: solid black 1px;
-        background-color:green;
-        order: 2;
     }
-    
-    #d {
-        width: 380px;
+
+    #d{
+        width: 40vw;
         height: 200px;
-        border: solid black 1px;
-        background-color:green;
     }
-    
-    #e {
-        width: 190px;
+
+    #e{
+        width: 20vw;
         height: 250px;
-        border: solid black 1px;
-        background-color:green;
-        display: inline-block;
     }
-    
-    #f {
-        width: 190px;
+
+    #f{
+        width: 20vw;
         height: 250px;
-        border: solid black 1px;
-        background-color:green;
-        display: inline-block;
     }
-    
-    #g {
-        width: 190px;
+
+    #g{
+        width: 20vw;
         height: 250px;
-        border: solid black 1px;
-        background-color:green;
-        display: inline-block;
     }
-    
-    #h {
-        width: 190px;
+
+    #h{
+        width: 20vw;
         height: 250px;
-        border: solid black 1px;
-        background-color:green;
-        display: inline-block;
     }
-    
-    #i {
-        width: 760px;
+
+    #i{
+        clear: none;
+        width: 100vw;
         height: 150px;
-        border: solid black 1px;
-        background-color:green;
-    }
-    
-    .eh {
-      display: flex;
-      
-    
     }
 }
 
+html{
+    height: 100%;
+}
